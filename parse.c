@@ -42,7 +42,7 @@ void parsefile(FILE *file)
 	line_t line;
 
 	meta = malloc(sizeof(meta_t));
-	if(!meta)
+	if (!meta)
 	{
 		fprintf(stderr, "Error: malloc failed");
 		exit(EXIT_FAILURE);

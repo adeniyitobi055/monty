@@ -88,7 +88,7 @@ int _isalpha(int c)
 }
 
 /**
- * nop = does literally nothing
+ * nop - does literally nothing
  * @stack: pointer to the head pointer of stack
  * @nline: the line number
  * Return: Nothing.

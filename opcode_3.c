@@ -69,4 +69,4 @@ void qpush(stack_t **stack, unsigned int nline)
 	new->prev = last;
 	new->next = NULL;
 	new->n = arg.arg;
-}	
+}

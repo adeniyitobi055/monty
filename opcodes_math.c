@@ -105,7 +105,7 @@ void mulop(stack_t **stack, unsigned int nline)
  * @nline: the line number
  * Return: Nothing
  */
-void mudop(stack_t **stack, unsigned int nline)
+void modop(stack_t **stack, unsigned int nline)
 {
 	stack_t *temp;
 

@@ -25,8 +25,6 @@ void (*get_op_func(line_t line, meta_t *meta))(stack_t **, unsigned int)
 		{"nop", nop},
 		{"pchar", pchar},
 		{"pstr", pstr},
-		/*{"rotl", rotlop},
-		{"rotr", rotrop},*/
 		{"stack", addst},
 		{"queue", addqu},
 		{NULL, NULL}

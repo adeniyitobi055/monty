@@ -3,7 +3,7 @@
 /**
  * main - opens a monty script file for parsing.
  * @argc: argument count.
- * @argv array of arguments.
+ * @argv: array of arguments.
  *
  * Return: EXIT_SUCCESS on success, EXIT_FAILURE on failure.
  */

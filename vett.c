@@ -26,7 +26,7 @@ bool comment_check(line_t line)
 }
 
 /**
- * argument_chech - verifies if argument is valid
+ * argument_check - verifies if argument is valid
  * @token: the argument to be checked
  *
  * Return: true if valid, else false
@@ -52,7 +52,7 @@ bool argument_check(char *token)
 }
 
 /**
- * push_check - chech if push opcode is being used and sets global
+ * push_check - check if push opcode is being used and sets global
  * argument variable if true
  * @line: struct containing line contents and line number
  * @opcode: the opcode to compare
@@ -60,7 +60,7 @@ bool argument_check(char *token)
  *
  * Return: Nothing.
  */
-void push_chech(line_t line, meta_t *meta, char *opcode)
+void push_check(line_t line, meta_t *meta, char *opcode)
 {
 	if ((strcmp(opcode, "push") == 0) && !argument_check(line.content[1]))
 	{
